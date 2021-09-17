@@ -1,0 +1,46 @@
+.form-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+ .inputField {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #eff5f8;
+    color: #57606f;
+    padding: 5px 25px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: lightgray;
+  }
+  input:focus{
+      outline: none;
+     
+  }
+
+  .form_div{
+
+      width: 500px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto !important;
+  }
+
+  form{
+        width: 100%;
+        margin: 5rem !important;
+  }
+
+  
